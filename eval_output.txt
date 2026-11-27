@@ -1,0 +1,82 @@
+
+=== v1: 50 summaries ===
+Unsupported numbers (candidates): 80 in 29 summaries
+Avg risk recall: 0.99
+Summaries with 100% recall: 48/50
+Avg words: 397 | within 80-120 words: 0/50
+
+Candidate bad numbers in v1 (first 15):
+  SYN-000029: 16  ...tions; cash‑to‑revenue rose sharply in 2023 (16 %) then fell to 10 % in 2024.   - **Cash Flo...
+  SYN-000029: 10  ...nue rose sharply in 2023 (16 %) then fell to 10 % in 2024.   - **Cash Flow:** Operating cash...
+  SYN-000148: 11  ...lipped below 1.0 and cash‑to‑revenue fell to 11 % in 2024.   * **Leverage** rose sharply – d...
+  SYN-000148: 19  ...024); interest coverage is deeply negative (‑19 × in 2024).   * **Cash flow** is consistentl...
+  SYN-000165: 39  ...ties ÷ Total Equity    - **Revenue Growth:** 39 % YoY (2022→2023) and 43 % YoY (2023→2024). ...
+  SYN-000165: 43  ...**Revenue Growth:** 39 % YoY (2022→2023) and 43 % YoY (2023→2024).   - **Profitability:** Gr...
+  SYN-000165: 19  ...*Profitability:** Gross‑margin stayed around 19‑22 %; net‑profit margin improved from 3.97 %...
+  SYN-000217: 23  ...h:** Strong upward trend – up 38 % YoY (2022‑23) and 37 % YoY (2023‑24).   - **Profitability...
+  SYN-000217: 37  ...ong upward trend – up 38 % YoY (2022‑23) and 37 % YoY (2023‑24).   - **Profitability:** Gros...
+  SYN-000217: 24  ...d – up 38 % YoY (2022‑23) and 37 % YoY (2023‑24).   - **Profitability:** Gross margins impro...
+  SYN-000267: 75  ...| 6006305 | 406159 | 33.3 % | 2.3 % | 1.25 | 75.8 % | | 2024 | 19374478 | 6109449 | 473200 |...
+  SYN-000267: 70  ...cy**   - Cash conversion cycle fluctuated (≈ 70‑94 days).   - Inventory turnover fell in 202...
+  SYN-000267: 6.5  ...9×) while receivables turnover stayed around 6.5× indicating slower inventory movement and re...
+  SYN-000267: 2.658e+06  ......
+  SYN-000282: 9  ... 25.1 M (2022) to RM 27.5 M (2024) – roughly 9 % cumulative growth over three years.   * **...
+
+=== v2: 50 summaries ===
+Unsupported numbers (candidates): 3 in 3 summaries
+Avg risk recall: 1.00
+Summaries with 100% recall: 50/50
+Avg words: 102 | within 80-120 words: 45/50
+v2 outside 80-120 words: [('SYN-000286', 74), ('SYN-000510', 130), ('SYN-001294', 123), ('SYN-001298', 121), ('SYN-001355', 77)]
+
+Candidate bad numbers in v2:
+  SYN-000381: 4  ... 1.63 while interest coverage remained above 4× and audit opinions were unqualified. No leg...
+  SYN-001472: 30  ...er 1996 the firm has been operating for over 30 years and is controlled primarily by Directo...
+  SYN-001569: 24  ...t carried a disclaimer of opinion while 2023‑24 audits were unqualified....
+
+Lowest-recall examples:
+
+--- SYN-000029 recall=1.00
+FLAGS:
+  - Director 4 holds 58.25% of shares
+  - Director(s) appointed in the last 6 months: Director 4, Director 5
+SUMMARY: **Risk flags:**
+- Director 4 holds 58.25% of shares  
+- Director(s) appointed in the last 6 months: Director 4, Director 5  
+
+**Overview:**  
+Unity Global Trading Sdn. Bhd. is a private limited retailer of textiles and baju kurung based in Selangor, Malaysia. The company was incorporated on 15 June 2018 and is currently active with five directors; Director 4 is the major shareholder with a 58.25% stake and, together with Director 5, was appointed within the past six months. No corporate shareholders are recorded. Financial statements for 2022‑2024 show unqualified audit opinions and modest profitability.
+
+--- SYN-000067 recall=1.00
+FLAGS:
+  - Net loss in 2024: RM-7,515,861
+  - Current ratio 0.81 (below 1) in 2024
+  - Low interest coverage -8.125 in 2024
+  - Negative operating cash flow in 2024
+  - Director(s) appointed in the last 6 months: Director 2
+SUMMARY: **Risk flags:**
+- Net loss in 2024: RM‑7,515,861  
+- Current ratio 0.81 (below 1) in 2024  
+- Low interest coverage –8.125 in 2024  
+- Negative operating cash flow in 2024  
+- Director(s) appointed in the last 6 months: Director 2  
+
+**Overview:**  
+Jaya Prima Travel Sdn. Bhd. is a private limited travel agency focused on umrah and inbound tourism, headquartered in Kuala Lumpur. The company was incorporated on 1 April 1995 and is currently active, with four directors and a top shareholder holding 47.38 % of the equity. Financially, the firm reported revenue of RM 43,292,441 in 2024, but recorded a net loss and a current ratio below 1, alongside an unqualified audit opinion. No legal cases ar
+
+--- SYN-000148 recall=1.00
+FLAGS:
+  - Net loss in 2024: RM-1,080,511
+  - Current ratio 0.83 (below 1) in 2024
+  - Low interest coverage -19.3812 in 2024
+  - Negative operating cash flow in 2024
+  - Director 4 holds 75.61% of shares
+SUMMARY: **Risk flags:**
+- Net loss in 2024: RM‑1,080,511  
+- Current ratio 0.83 (below 1) in 2024  
+- Low interest coverage –19.3812 in 2024  
+- Negative operating cash flow in 2024  
+- Director 4 holds 75.61 % of shares  
+
+**Overview:**  
+Indah Prima Medical Sdn. Bhd. is a private limited company operating a community pharmacy and health‑supplements business in Kelantan. It was incorporated on 30 April 1993 and has a share capital of RM 500,000. The firm has five directors, with Director 4 owning 75.61 % of the equity, and reports an unqualified audit opinion for the last three years.
